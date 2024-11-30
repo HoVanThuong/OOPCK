@@ -15,6 +15,10 @@
 public class PhongLyThuyet extends PhongHoc{
     private boolean mayChieu;
 
+    public PhongLyThuyet() {
+        this.mayChieu = false;
+    }
+
     public PhongLyThuyet(String maPhong, String dayNha, double dienTich, int soBongDen, boolean mayChieu) {
         super(maPhong, dayNha, dienTich, soBongDen);
         this.mayChieu = mayChieu;
@@ -30,7 +34,7 @@ public class PhongLyThuyet extends PhongHoc{
 
     public boolean kiemDatChuan(){
         boolean anhSang;
-        if(dienTich / 10 >= soBongDen)
+        if(dienTich / 10 <= soBongDen)
             anhSang = true;
         else anhSang = false;
         return anhSang && mayChieu ? true : false;

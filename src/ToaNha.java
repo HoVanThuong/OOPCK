@@ -113,13 +113,15 @@ public class ToaNha {
                 .filter(ph -> ph instanceof PhongMayTinh)
                 .findFirst()
                 .orElse(null);
-        if(temp == null && soMayTinhMoi >= 0){
+        if(temp != null && soMayTinhMoi >= 0){
             ((PhongMayTinh)temp).setSoMayTinh(soMayTinhMoi);
             return true;
         }
         return false;
     }
     public boolean xoaPhong(String maPhong){
+        if(maPhong == null || maPhong.isEmpty())
+            return false;
         int index = getIndex(maPhong);
         if(index == -1)
             return false;

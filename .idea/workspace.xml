@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31daa52f-8dc9-4dab-84e8-d633396dfe86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnThiCuoiKi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhongHoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhongLyThuyet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhongMayTinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhongThiNghiem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToaNha.java" afterDir="false" />
+    <list default="true" id="31daa52f-8dc9-4dab-84e8-d633396dfe86" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/ToaNhaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnThiCuoiKi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnThiCuoiKi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhongHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhongHoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhongLyThuyet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhongLyThuyet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhongMayTinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhongMayTinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToaNha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToaNha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +22,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HoVanThuong&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HoVanThuong/OOPCK.git&quot;,
+    &quot;accountId&quot;: &quot;0bbe73b6-1645-4003-9ace-088f18c9298e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2pRBg1j6e0QB2gRxluiFrQMgZx3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,9 +54,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ToaNhaTest.capNhatMayTinh_KhongCoPhongMayTinh.executor": "Run",
+    "JUnit.ToaNhaTest.capNhatMayTinh_KhongTonTaiMaPhong.executor": "Run",
+    "JUnit.ToaNhaTest.capNhatMayTinh_SoMayTinhMoiKhongHopLe.executor": "Run",
+    "JUnit.ToaNhaTest.capNhatMayTinh_ThanhCong.executor": "Run",
+    "JUnit.ToaNhaTest.danhSachPhongDatChuan.executor": "Run",
+    "JUnit.ToaNhaTest.danhSachPhongDatChuan_CoMotPhanTuNao.executor": "Run",
+    "JUnit.ToaNhaTest.danhSachPhongDatChuan_TatCaPhanTu.executor": "Run",
+    "JUnit.ToaNhaTest.danhSachPhongMay60_CoMotPhong.executor": "Run",
+    "JUnit.ToaNhaTest.danhSachPhongMay60_DaPhanTu.executor": "Run",
+    "JUnit.ToaNhaTest.danhSachPhongMay60_Rong.executor": "Run",
+    "JUnit.ToaNhaTest.executor": "Run",
+    "JUnit.ToaNhaTest.sapXepGiamDanTheoDienTich.executor": "Run",
+    "JUnit.ToaNhaTest.sapXepTangDanTheoDayNha.executor": "Run",
+    "JUnit.ToaNhaTest.themPhong_CheckIndex.executor": "Run",
+    "JUnit.ToaNhaTest.themPhong_Correct.executor": "Run",
+    "JUnit.ToaNhaTest.themPhong_False.executor": "Run",
+    "JUnit.ToaNhaTest.themPhong_MaPhongRong.executor": "Run",
+    "JUnit.ToaNhaTest.themPhong_NULL.executor": "Run",
+    "JUnit.ToaNhaTest.timPhong.executor": "Run",
+    "JUnit.ToaNhaTest.timPhong_KhongTonTai.executor": "Run",
+    "JUnit.ToaNhaTest.xoaPhong_MaPhongKhongTonTai.executor": "Run",
+    "JUnit.ToaNhaTest.xoaPhong_MaPhongNULL.executor": "Run",
+    "JUnit.ToaNhaTest.xoaPhong_MaPhongRong.executor": "Run",
+    "JUnit.ToaNhaTest.xoaPhong_ThanhCong.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/On kt/Thuan_code/src/iuh/fit/TinhTrang.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +98,75 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ToaNhaTest.danhSachPhongMay60_DaPhanTu">
+    <configuration name="ToaNhaTest.danhSachPhongMay60_CoMotPhong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnThiCuoiKi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToaNhaTest" />
+      <option name="METHOD_NAME" value="danhSachPhongMay60_CoMotPhong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToaNhaTest.danhSachPhongMay60_DaPhanTu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnThiCuoiKi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToaNhaTest" />
+      <option name="METHOD_NAME" value="danhSachPhongMay60_DaPhanTu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToaNhaTest.danhSachPhongMay60_Rong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnThiCuoiKi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToaNhaTest" />
+      <option name="METHOD_NAME" value="danhSachPhongMay60_Rong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToaNhaTest.xoaPhong_MaPhongKhongTonTai" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnThiCuoiKi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToaNhaTest" />
+      <option name="METHOD_NAME" value="xoaPhong_MaPhongKhongTonTai" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToaNhaTest.xoaPhong_ThanhCong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnThiCuoiKi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToaNhaTest" />
+      <option name="METHOD_NAME" value="xoaPhong_ThanhCong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ToaNhaTest.danhSachPhongMay60_DaPhanTu" />
+        <item itemvalue="JUnit.ToaNhaTest.danhSachPhongMay60_CoMotPhong" />
+        <item itemvalue="JUnit.ToaNhaTest.danhSachPhongMay60_Rong" />
+        <item itemvalue="JUnit.ToaNhaTest.xoaPhong_ThanhCong" />
+        <item itemvalue="JUnit.ToaNhaTest.xoaPhong_MaPhongKhongTonTai" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,11 +183,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732719115539</updated>
-      <workItem from="1732719116556" duration="3973000" />
+      <workItem from="1732719116556" duration="4125000" />
+      <workItem from="1732888731566" duration="1601000" />
+      <workItem from="1732934077983" duration="33000" />
+      <workItem from="1732954052150" duration="9507000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1732723228978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732723228978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>

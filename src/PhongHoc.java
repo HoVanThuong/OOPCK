@@ -18,6 +18,13 @@ public abstract class PhongHoc {
     protected double dienTich;
     protected int soBongDen;
 
+    public PhongHoc() {
+        this.maPhong = "";
+        this.dayNha = "";
+        this.dienTich = 0;
+        this.soBongDen = 0;
+    }
+
     public PhongHoc(String maPhong, String dayNha, double dienTich, int soBongDen) {
         this.setMaPhong(maPhong);
         this.setSoBongDen(soBongDen);

@@ -86,8 +86,8 @@ class ToaNhaTest {
     @org.junit.jupiter.api.Test
     void danhSachPhongDatChuan_KhongCoPhanTuNao() {
         ToaNha toaNha = new ToaNha();
-        PhongHoc phongHoc = new PhongLyThuyet("2","da",2,2,true);
-        PhongHoc phongHoc1 = new PhongLyThuyet("3","da",2,2,true);
+        PhongHoc phongHoc = new PhongLyThuyet("2","da",100,2,true);
+        PhongHoc phongHoc1 = new PhongLyThuyet("3","da",100,2,true);
         toaNha.themPhong(phongHoc);
         toaNha.themPhong(phongHoc1);
         List<PhongHoc> temp = toaNha.danhSachPhongDatChuan();
